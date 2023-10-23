@@ -1,0 +1,414 @@
+.night-mode {
+  height: 24px;
+  position: relative;
+}
+.night-mode .overlap-group {
+  border-radius: 100px;
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 55px;
+}
+.night-mode .rectangle {
+  border-radius: 100px;
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: rotate(180deg);
+  width: 55px;
+}
+.night-mode .ellipse {
+  background-color: #ffe76d;
+  border-radius: 7.5px/8px;
+  height: 16px;
+  position: absolute;
+  top: 4px;
+  transform: rotate(180deg);
+  width: 15px;
+}
+.night-mode .div {
+  position: absolute;
+  transform: rotate(180deg);
+}
+.night-mode .DARK-MODE {
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  line-height: normal;
+  position: absolute;
+  top: 2px;
+  white-space: nowrap;
+}
+.night-mode.button-off {
+  width: 167px;
+}
+.night-mode.button-on {
+  width: 173px;
+}
+.night-mode.button-off .rectangle {
+  background-color: #bfbfbf;
+}
+.night-mode.button-on .rectangle {
+  background-color: #000000;
+}
+.night-mode.button-off .ellipse {
+  left: 35px;
+}
+.night-mode.button-on .ellipse {
+  left: 5px;
+}
+.night-mode.button-off .div {
+  background-color: #bfbfbf;
+  border-radius: 1px;
+  height: 2px;
+  left: 50px;
+  top: 11px;
+  width: 2px;
+}
+.night-mode.button-on .div {
+  background-color: #000000;
+  border-radius: 6.5px;
+  height: 13px;
+  left: 11px;
+  top: 5px;
+  width: 13px;
+}
+.night-mode.button-off .DARK-MODE {
+  color: #777777;
+  left: 64px;
+}
+.night-mode.button-on .DARK-MODE {
+  color: #d9d9d9;
+  left: 65px;
+}
+
+.text-wrapper {
+  color: #383838;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 5%;
+}
+
+.pill-react {
+  align-items: flex-start;
+  background-color: #4731d3;
+  border-radius: 23px;
+  display: inline-flex;
+  gap: 10px;
+  padding: 8px 18px 9px;
+  position: relative;
+  margin-right: 1%;
+}
+
+.devSites {
+  display: flex;
+  text-align: left;
+  color: #383838;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.devSites2 {
+  display: flex;
+  text-align: left;
+  color: #383838;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.hero-content {
+  align-items: center;
+  display: flex;
+  gap: 83px;
+  position: relative;
+  width: 1440px;
+  background-color: #4731d3;
+  padding: 12%;
+}
+
+.hero-content .hero-left {
+  align-items: flex-start;
+  align-self: stretch;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 36px;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.hero-content .i-am-a-frontend {
+  color: #cbf281;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 54px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 59.4px;
+  position: relative;
+  text-align: left;
+}
+
+.hero-content .text-wrapper {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: 528.88px;
+  text-align: left;
+}
+
+.hero-content .buttons {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 12px;
+  position: relative;
+}
+
+.hero-content .div {
+  align-items: center;
+  background-color: var(--defaultwhite);
+  border: 1px solid;
+  border-color: var(--defaultindigo-800);
+  border-radius: 6px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  padding: 12px 20px 12px 12px;
+  position: relative;
+}
+
+.hero-content .brand-github {
+  height: 26.26px;
+  position: relative;
+  width: 26px;
+}
+
+.hero-content .text-wrapper-2 {
+  color: var(--defaultindigo-800);
+  font-family: var(--text-lg-leading-7-font-medium-font-family);
+  font-size: var(--text-lg-leading-7-font-medium-font-size);
+  font-style: var(--text-lg-leading-7-font-medium-font-style);
+  font-weight: var(--text-lg-leading-7-font-medium-font-weight);
+  letter-spacing: var(--text-lg-leading-7-font-medium-letter-spacing);
+  line-height: var(--text-lg-leading-7-font-medium-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.hero-content .brand-linkedin {
+  height: 25.21px;
+  position: relative;
+  width: 24px;
+}
+
+.hero-content .hero-right {
+  height: 543.89px;
+  margin-bottom: -102px;
+  margin-right: -85.88px;
+  margin-top: -66px;
+  object-fit: cover;
+  position: relative;
+  width: 518px;
+}
+
+.about-box {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+}
+
+.about-box .text-wrapper {
+  align-self: stretch;
+  color: #ffffff;
+  font-family: "Inter-Medium", Helvetica;
+  font-size: 30px;
+  font-weight: 500;
+  height: 25px;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  margin-left: 12%;
+  text-align: left;
+}
+
+.about-box .lorem-ipsum-dolor {
+  align-self: stretch;
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  height: 241.68px;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: relative;
+  margin-left: 12%;
+  text-align: left;
+}
+
+.basic-info {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  width: 300px;
+}
+
+.basic-info .text-wrapper {
+  align-self: stretch;
+  color: #ffffff;
+  font-family: "Inter-Medium", Helvetica;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: -1px;
+  position: relative;
+  text-align: left;
+}
+
+.basic-info .profile-info {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.basic-info .do-um-tarihi-kamet {
+  color: #cbf281;
+  flex: 1;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  height: 222px;
+  letter-spacing: 0.16px;
+  line-height: 24px;
+  margin-top: -1px;
+  position: relative;
+  text-align: left;
+}
+
+.basic-info .element-ankara {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 222px;
+  letter-spacing: 0.16px;
+  line-height: 24px;
+  margin-top: -1px;
+  position: relative;
+  width: 189px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.skillsPage {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.skillImages {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.firstTrio {
+  display: flex;
+  flex-direction: column;
+  margin-right: 8rem;
+  margin-left: 8rem;
+}
+
+.secondTrio {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5rem;
+}
+
+.contentPageProfil {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 10% 0 10%;
+}
+
+.basicInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.infoProfile {
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutPartProfile {
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+}
+
+.mainDivProject {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
